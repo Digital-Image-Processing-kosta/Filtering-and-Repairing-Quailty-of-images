@@ -1,4 +1,6 @@
+# FILTERING AND REPAIRING QUALITY OF IMAGES
 Here you can find different ways of filtering and repairing quaility of images: sharpening, contrast repairing, noise removal, selective filtering, median filtering, Wiener's filtering...
+### TEST:
 In **images** folders you can find different original images before processing. If you find some of these images interesting you can check
 **main.m** to see how i have repaired the quality.
 Also you can check out functions that i have wrote from scratch:
