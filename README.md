@@ -1,11 +1,6 @@
-# Digital-Image-Processing
-### Here you can find my projects in digital image processing: 
-**1.** Detection and extraction of 6 different objects in an image. Comparing those objects on 2 images and finding rotation, translation and scaling of matched objects. Using these 2D transformations to restore coordinates on distorted image. (Python)
-
-**2.** Extracting time from the given image of clock (Matlab)
-
-**3.** Extracting score of red and blue dices from image (Matlab)
-
-**4.** Filtering and repairing quality of different images (Matlab) 
-
-**5** Canny's edge detection algorithm, written from scratch (Matlab)
+Here you can find different ways of filtering and repairing quaility of images: sharpening, contrast repairing, noise removal, selective filtering, median filtering, Wiener's filtering...
+In **images** folders you can find different original images before processing. If you find some of these images interesting you can check
+**main.m** to see how i have repaired the quality.
+Also you can check out functions that i have wrote from scratch:
+1. **dos_clhe** - performs histogram equalization with contrast limiting
+2. **dos_non_local_means** - performs non local averaging of the image
